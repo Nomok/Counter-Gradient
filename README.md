@@ -13,10 +13,10 @@ FXC (apart of the [Windows SDK](https://developer.microsoft.com/en-us/windows/do
 2. Run `CompileShader.bat`
 3. You should get a successful compilation message:
 ```
-fxc.exe "funky_fisheye.hlsl" /nologo /WX /Ges /Qstrip_reflect /Qstrip_debug /Tps_4_0 /Eps_main /Fo"funky_fisheye.fxc"
+fxc.exe "counter_gradient.hlsl" /nologo /WX /Ges /Qstrip_reflect /Qstrip_debug /Tps_4_0 /Eps_main /Fo"funky_fisheye.fxc"
 compilation object save succeeded; see ROOT\funky_fisheye.fxc
 
-fxc.exe "funky_fisheye.hlsl" /nologo /WX /Ges /Qstrip_reflect /Qstrip_debug /Tps_4_0 /Eps_main_pm /Fo"funky_fisheye.premultiplied.fxc"
+fxc.exe "counter_gradient.hlsl" /nologo /WX /Ges /Qstrip_reflect /Qstrip_debug /Tps_4_0 /Eps_main_pm /Fo"funky_fisheye.premultiplied.fxc"
 compilation object save succeeded; see ROOT\funky_fisheye.premultiplied.fxc
 .
 Shaders compiled ok
